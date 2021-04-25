@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  width: 420px;
+  height: 100px;
+  text-align: center;
+  font-size: 4rem;
+  /* background-color: red; */
+}
+
+button {
+  width: 100px;
+  height: 80px;
+  border: none;
+  margin: 6px;
+  font-size: 20px;
+}
+
+.add {
+  background-color: rgb(248, 121, 227);
+}
+
+.minus {
+  background-color: rgb(0, 255, 242);
+}
+
+.add:hover {
+  background-color: rgba(214, 18, 181, 0.924);
+}
+
+.minus:hover {
+  background-color: rgba(30, 110, 238, 0.931);
+}
